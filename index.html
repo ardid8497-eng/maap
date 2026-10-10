@@ -1,0 +1,36 @@
+<html>
+  <body style="background: black;">
+
+    <div style="background: white; width: 270px; margin: auto; padding: 15px;">
+      <img src="https://gifdb.com/images/high/rabbits-sticker-qti0dldojmp4tm94.gif"
+     width="280px">
+<center>
+      <p>adee masih marah yaa abang minta maap yaa</p>
+    </center>
+<center>
+      <button onclick="iya()">
+  iya adee maapin
+</button>
+    </center>
+      <br>
+      <center>
+        <button onclick="ga()">enggak mau</button>
+      </center>
+    </div>
+
+
+    <script>
+      function iya() {
+        alert("yeey di maapin, sekarang abang minta pap muehehehe😈")
+      }
+   
+function ga() {
+  let tombol = document.querySelectorAll("button")[1];
+
+  tombol.style.position = "absolute";
+  tombol.style.left = Math.random() * 300 + "px";
+  tombol.style.top = Math.random() * 500 + "px";
+}
+    </script>
+</body>
+</html>
